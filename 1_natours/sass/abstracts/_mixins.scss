@@ -20,10 +20,12 @@
 900-1200 tablet landscape
 1200-1800 normal
 1800- big desktop
+
+order: base + typography > general layout + grid > page layout > components
+
+1em = 16px
+
 */
-
-// 1em = 16px
-
 @mixin respond($breakpoint) {
     //600px
     @if $breakpoint == phone {
